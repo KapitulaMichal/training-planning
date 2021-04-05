@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+html, body {
+  font-family: 'Lato', serif;
+  background-color: #fff;
+}
+
+.navbar-default {
+  font-size: 1.15em;
+  font-weight: 400;
+  background-color: #006b96;
+  padding: 10px;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #cbf0ff;
+}
+
+.navbar-default .navbar-brand {
+  color: #002433;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #ffffff;
+  text-shadow: 1px -1px 8px #b3e9ff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #004059;
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #002433;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.dropdown-menu {
+  background-color: #004059;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-menu>li>a {
+  background-color: #004059;
+  color: white;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color: #004059;
+  color:white;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #003246;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) { 
+  .dropdown-menu>li>a {
+    background-color: #006b96;
+    color: #ffffff;
+  }
+  .dropdown-menu>li>a:hover {
+    color: #ffffff;
+  }
+  
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  
+  .dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #005577;
+  }
+} /* END Media Query */
+
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+
+.main{
+  margin-top: 70px;
+}
+
+hr{
+  width: 30%;
+  border: none;
+  height: 0.5px;
+  color: #000;
+  background-color: #000;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+label{
+  margin-bottom: 5px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+  background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+  margin-top: 30px;
+  margin: 0 auto;
+  max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+  margin-top: 5px;
+}
+
+.login-register{
+  font-size: 11px;
+  text-align: center;
+}
+
+.center{
+margin-right: auto;
+margin-left: auto;
+width: 300px;"
+text-align: center;
+}
+
+.radio-left{
+margin-top: 10px;
+float: left;
+width: 150px;
+text-align: center;
+}
+
+.radio-right{
+margin-top: 10px;
+float: right;
+width: 150px;
+text-align: center;
+}
+
+#radio{
+  height: 61px;
+}
+
+.error
+{
+  text-align: center;
+  color: red;
+}
+
+h4
+{
+  color: green;
+  text-align: center;
+}
+
+.col-xs
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exercise
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 20px;
+}
+
+.jumbotron
+{
+  vertical-align: middle;
+}
+
+/*modal*/
+/*modal*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+tr
+{
+  height: 50px;
+
+}
+th
+{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+
+td
+{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.buttons 
+{
+  width: 156px;
+}
+
+.column_center
+{
+  display: inline-block; vertical-align: top;
+  text-align: left;
+  padding-left: 18px;
+  padding-right: 10px;
+}
+
+
+.cont{
+margin-right: auto;
+margin-left: auto;
+margin-bottom: auto;
+width: 300px;"
+text-align: center;
+}
+
+#edit-field
+{
+  margin-top:15px;
+}
+
+#select-exercise
+{
+  width: 200px;
+}
+
+.list-group
+{
+  max-width: 500px; 
+  min-width: 300px;
+  margin-top: 15px;
+}
+
+.exercise-details
+{
+  margin-bottom: 5px;
+  width: 65px;
+}
+
+.button-training
+{
+  width: 68px;
+}
+.badge-start
+{
+  margin-top: 8px;
+}
+
+.badge-edit
+{
+  margin-top: 5px;
+}
+
+.li-training
+{
+  font-size: 20px;
+}
+
+.active
+{
+  background-color: #004a72;
+  border-radius: 10px;
+}
+
+#back-button
+{
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.form-group
+{
+  margin-bottom: 15px;
+}
+
+.start-training-field
+{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;"
+  text-align: center;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: none;
+    margin-left: -1px;
+}
+
+.input-group .form-control {
+    position: static;
+}
+
+.input-group-btn>.btn {
+    position: static; 
+}
+
+.panel-heading
+{
+  padding-bottom: 0;
+}
